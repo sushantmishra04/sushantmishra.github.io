@@ -6,7 +6,14 @@
 
 <title>Sushant Mishra | Customer Support Executive</title>
 
+<meta name="description" content="Professional portfolio of Sushant Mishra, Customer Support Executive with experience in customer service, inbound and outbound processes, email support and customer handling.">
+
 <style>
+
+/* =========================
+   GLOBAL
+========================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +23,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #0b1120;
+    background: #080d19;
     color: #e5e7eb;
     line-height: 1.6;
 }
@@ -26,40 +33,53 @@ a {
     color: inherit;
 }
 
-/* NAVBAR */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 22px;
+}
+
+/* =========================
+   HEADER
+========================= */
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(11, 17, 32, 0.95);
+
+    background: rgba(8, 13, 25, 0.94);
+    backdrop-filter: blur(12px);
+
     border-bottom: 1px solid #263248;
-    backdrop-filter: blur(10px);
 }
 
 .navbar {
     max-width: 1150px;
     margin: auto;
+
     padding: 18px 25px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: bold;
     color: #38bdf8;
+    letter-spacing: 0.5px;
 }
 
 nav {
     display: flex;
-    gap: 24px;
+    gap: 25px;
 }
 
 nav a {
-    color: #d1d5db;
+    color: #cbd5e1;
     font-size: 14px;
     transition: 0.3s;
 }
@@ -68,19 +88,25 @@ nav a:hover {
     color: #38bdf8;
 }
 
-/* HERO */
+/* =========================
+   HERO
+========================= */
 
 .hero {
     min-height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     text-align: center;
-    padding: 120px 20px 70px;
+
+    padding: 130px 20px 80px;
+
     background:
         radial-gradient(circle at top right, #164e63, transparent 35%),
         radial-gradient(circle at bottom left, #172554, transparent 40%),
-        #0b1120;
+        #080d19;
 }
 
 .hero-content {
@@ -88,23 +114,56 @@ nav a:hover {
 }
 
 .profile-placeholder {
-    width: 125px;
-    height: 125px;
-    margin: 0 auto 25px;
+    width: 140px;
+    height: 140px;
+
+    margin: 0 auto 28px;
+
     border-radius: 50%;
+
     border: 3px solid #38bdf8;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+
+    font-size: 48px;
     font-weight: bold;
+
     color: #38bdf8;
+
     background: #111827;
+
+    box-shadow: 0 0 35px rgba(56, 189, 248, 0.15);
+}
+
+/*
+   PHOTO PLACEHOLDER
+
+   Later, when you have your professional photo,
+   replace the profile-placeholder div with:
+
+   <img src="photo.jpg" class="profile-photo" alt="Sushant Mishra">
+
+*/
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid #38bdf8;
+
+    margin-bottom: 28px;
 }
 
 .hero h1 {
-    font-size: 58px;
-    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 12px;
 }
 
 .hero h1 span {
@@ -112,29 +171,36 @@ nav a:hover {
 }
 
 .hero h2 {
-    font-size: 24px;
+    font-size: 25px;
     color: #cbd5e1;
-    margin-bottom: 20px;
     font-weight: normal;
+    margin-bottom: 20px;
 }
 
 .hero p {
-    max-width: 700px;
+    max-width: 720px;
     margin: auto;
+
     color: #94a3b8;
+
     font-size: 17px;
 }
 
 .buttons {
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 .btn {
     display: inline-block;
-    padding: 13px 25px;
+
+    padding: 13px 26px;
+
     margin: 6px;
-    border-radius: 7px;
+
+    border-radius: 8px;
+
     font-weight: bold;
+
     transition: 0.3s;
 }
 
@@ -158,160 +224,407 @@ nav a:hover {
     color: #07111f;
 }
 
-/* GENERAL */
+/* =========================
+   SECTIONS
+========================= */
 
 section {
-    padding: 90px 20px;
-}
-
-.container {
-    max-width: 1050px;
-    margin: auto;
+    padding: 95px 20px;
 }
 
 .section-title {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 15px;
+
+    font-size: 38px;
+
+    margin-bottom: 12px;
 }
 
 .section-subtitle {
     text-align: center;
+
     color: #94a3b8;
+
     margin-bottom: 50px;
 }
 
-/* ABOUT */
+/* =========================
+   ABOUT
+========================= */
 
 .about-box {
-    background: #111827;
-    border: 1px solid #263248;
-    border-radius: 15px;
-    padding: 35px;
-    max-width: 850px;
+    max-width: 900px;
+
     margin: auto;
+
+    padding: 40px;
+
+    background: #111827;
+
+    border: 1px solid #263248;
+
+    border-radius: 18px;
+
     text-align: center;
+
+    transition: 0.3s;
+}
+
+.about-box:hover {
+    border-color: #38bdf8;
+    transform: translateY(-4px);
 }
 
 .about-box p {
     color: #cbd5e1;
+
     font-size: 17px;
+
+    margin-bottom: 18px;
 }
 
-/* EXPERIENCE */
+.about-highlight {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+/* =========================
+   EXPERIENCE
+========================= */
 
 .experience-grid {
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
+
+    gap: 24px;
 }
 
 .experience-card {
     background: #111827;
+
     border: 1px solid #263248;
-    border-radius: 14px;
-    padding: 28px;
+
+    border-radius: 16px;
+
+    padding: 30px;
+
     transition: 0.3s;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.experience-card::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 4px;
+    height: 100%;
+
+    background: #38bdf8;
 }
 
 .experience-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-7px);
+
     border-color: #38bdf8;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
 }
 
 .experience-card h3 {
     color: #38bdf8;
+
     font-size: 20px;
-    margin-bottom: 8px;
+
+    margin-bottom: 7px;
 }
 
-.experience-card .company {
+.company {
     color: white;
+
     font-weight: bold;
+
+    font-size: 16px;
+
     margin-bottom: 5px;
 }
 
-.experience-card .duration {
+.duration {
     color: #7dd3fc;
+
     font-size: 14px;
-    margin-bottom: 15px;
+
+    margin-bottom: 17px;
 }
 
 .experience-card p {
     color: #94a3b8;
+
+    font-size: 15px;
 }
 
-/* SKILLS */
+/* =========================
+   SKILLS
+========================= */
 
 .skills {
     display: flex;
+
     flex-wrap: wrap;
+
     justify-content: center;
-    gap: 13px;
-    max-width: 850px;
+
+    gap: 14px;
+
+    max-width: 900px;
+
     margin: auto;
 }
 
 .skill {
-    padding: 11px 20px;
+    padding: 12px 20px;
+
     background: #111827;
+
     border: 1px solid #263248;
-    border-radius: 25px;
+
+    border-radius: 30px;
+
     color: #cbd5e1;
+
     transition: 0.3s;
 }
 
 .skill:hover {
     border-color: #38bdf8;
+
     color: #38bdf8;
+
+    transform: translateY(-3px);
 }
 
-/* RESUME */
+/* =========================
+   EDUCATION
+========================= */
+
+.education-box {
+    max-width: 850px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 22px;
+}
+
+.education-card {
+    background: #111827;
+
+    border: 1px solid #263248;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #38bdf8;
+}
+
+.education-card h3 {
+    color: #38bdf8;
+
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    color: #94a3b8;
+}
+
+/* =========================
+   RESUME
+========================= */
 
 .resume-box {
-    max-width: 700px;
+    max-width: 750px;
+
     margin: auto;
+
     text-align: center;
-    background: linear-gradient(135deg, #111827, #172554);
-    padding: 45px 30px;
-    border-radius: 15px;
+
+    background:
+        linear-gradient(135deg, #111827, #172554);
+
+    padding: 50px 30px;
+
+    border-radius: 18px;
+
     border: 1px solid #263248;
+}
+
+.resume-box h3 {
+    font-size: 25px;
+
+    margin-bottom: 12px;
 }
 
 .resume-box p {
     color: #94a3b8;
+
     margin-bottom: 25px;
 }
 
-/* CONTACT */
+.resume-coming {
+    display: inline-block;
+
+    padding: 12px 22px;
+
+    border: 1px solid #475569;
+
+    border-radius: 8px;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+}
+
+/* =========================
+   CONTACT
+========================= */
 
 .contact-box {
-    max-width: 750px;
+    max-width: 850px;
+
     margin: auto;
+
     text-align: center;
 }
 
-.contact-box p {
+.contact-box > p {
     color: #94a3b8;
+
     font-size: 17px;
-    margin-bottom: 25px;
+
+    margin-bottom: 35px;
 }
 
-/* FOOTER */
+.contact-info {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 22px;
+
+    margin-bottom: 30px;
+}
+
+.contact-card {
+    background: #111827;
+
+    border: 1px solid #263248;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    transition: 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #38bdf8;
+}
+
+.contact-card .label {
+    color: #64748b;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 8px;
+}
+
+.contact-card a {
+    color: #38bdf8;
+
+    font-size: 16px;
+
+    word-break: break-word;
+}
+
+/* =========================
+   FOOTER
+========================= */
 
 footer {
     text-align: center;
-    padding: 30px 20px;
+
+    padding: 35px 20px;
+
     border-top: 1px solid #263248;
+
     color: #64748b;
+
+    font-size: 14px;
 }
 
-/* MOBILE */
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.hero-content {
+    animation: fadeUp 1s ease;
+}
+
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 750px) {
 
     nav {
         display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .hero {
+        padding-top: 120px;
     }
 
     .hero h1 {
@@ -322,59 +635,102 @@ footer {
         font-size: 20px;
     }
 
-    .experience-grid {
-        grid-template-columns: 1fr;
+    .hero p {
+        font-size: 15px;
     }
 
     .section-title {
         font-size: 30px;
     }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .education-box {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+    .about-box {
+        padding: 28px 22px;
+    }
+
+    section {
+        padding: 75px 18px;
+    }
+
 }
+
 </style>
 </head>
 
+
 <body>
 
-<!-- NAVIGATION -->
+
+<!-- =========================
+     NAVIGATION
+========================= -->
 
 <header>
+
     <div class="navbar">
 
         <div class="logo">
-            Sushant Mishra
+            SM
         </div>
 
         <nav>
+
             <a href="#home">Home</a>
+
             <a href="#about">About</a>
+
             <a href="#experience">Experience</a>
+
             <a href="#skills">Skills</a>
-            <a href="#resume">Resume</a>
+
+            <a href="#education">Education</a>
+
             <a href="#contact">Contact</a>
+
         </nav>
 
     </div>
+
 </header>
 
 
-<!-- HOME -->
+<!-- =========================
+     HOME
+========================= -->
 
 <section id="home" class="hero">
 
     <div class="hero-content">
 
-        <!-- Photo can be added here later -->
+        <!-- PHOTO PLACEHOLDER -->
+
         <div class="profile-placeholder">
             SM
         </div>
 
-        <h1>Sushant <span>Mishra</span></h1>
+        <h1>
+            Sushant <span>Mishra</span>
+        </h1>
 
-        <h2>Customer Support Executive</h2>
+        <h2>
+            Customer Support Executive
+        </h2>
 
         <p>
-            Customer support professional with experience in
-            BPO, customer service and process-based operations.
+            Customer-focused professional with experience in
+            customer support, inbound and outbound processes,
+            email support, customer handling and problem solving.
         </p>
 
         <div class="buttons">
@@ -394,7 +750,9 @@ footer {
 </section>
 
 
-<!-- ABOUT -->
+<!-- =========================
+     ABOUT
+========================= -->
 
 <section id="about">
 
@@ -405,23 +763,28 @@ footer {
         </h2>
 
         <p class="section-subtitle">
-            A little about my professional background
+            Professional profile
         </p>
 
         <div class="about-box">
 
             <p>
-                Hello, I am Sushant Mishra. I am a customer support
-                professional with experience working with well-known
-                companies and different customer service processes.
+                I am <span class="about-highlight">Sushant Mishra</span>,
+                a Customer Support Executive with professional experience
+                across customer service and support processes.
             </p>
 
-            <br>
+            <p>
+                My experience includes handling customers through
+                inbound calls, outbound processes and email support,
+                while focusing on effective communication, problem
+                solving and customer satisfaction.
+            </p>
 
             <p>
-                My experience includes customer support, handling
-                customer queries, resolving issues and working with
-                process-specific operations.
+                I am interested in opportunities where I can use my
+                customer service experience, communication skills and
+                ability to handle customers professionally.
             </p>
 
         </div>
@@ -431,7 +794,9 @@ footer {
 </section>
 
 
-<!-- EXPERIENCE -->
+<!-- =========================
+     EXPERIENCE
+========================= -->
 
 <section id="experience">
 
@@ -442,10 +807,14 @@ footer {
         </h2>
 
         <p class="section-subtitle">
-            My professional experience
+            Professional experience and responsibilities
         </p>
 
+
         <div class="experience-grid">
+
+
+            <!-- EXPERIENCE 1 -->
 
             <div class="experience-card">
 
@@ -458,17 +827,19 @@ footer {
                 </div>
 
                 <div class="duration">
-                    PVR Cinemas Process · 16 Months
+                    16 Months
                 </div>
 
                 <p>
-                    Worked as a Customer Support Executive,
+                    Worked on the PVR Cinemas process,
                     handling customer queries and providing
-                    support for the PVR Cinemas process.
+                    effective customer support.
                 </p>
 
             </div>
 
+
+            <!-- EXPERIENCE 2 -->
 
             <div class="experience-card">
 
@@ -481,17 +852,19 @@ footer {
                 </div>
 
                 <div class="duration">
-                    Flipkart Auto-Bound Process · 8 Months
+                    8 Months
                 </div>
 
                 <p>
-                    Worked as an L2 Executive, handling escalated
-                    customer issues and providing support for the
-                    Flipkart auto-bound process.
+                    Worked on the Flipkart Outbound Process,
+                    handling customer interactions and
+                    supporting process requirements.
                 </p>
 
             </div>
 
+
+            <!-- EXPERIENCE 3 -->
 
             <div class="experience-card">
 
@@ -504,16 +877,19 @@ footer {
                 </div>
 
                 <div class="duration">
-                    redBus Process · 9 Months
+                    9 Months
                 </div>
 
                 <p>
-                    Handled customer queries and provided customer
-                    support for the redBus process.
+                    Worked on the redBus process,
+                    assisting customers and resolving
+                    service-related queries.
                 </p>
 
             </div>
 
+
+            <!-- EXPERIENCE 4 -->
 
             <div class="experience-card">
 
@@ -526,16 +902,19 @@ footer {
                 </div>
 
                 <div class="duration">
-                    Bajaj Auto Auto-Bound Process · Current
+                    Current
                 </div>
 
                 <p>
-                    Currently working as a Customer Support Executive
-                    in the Bajaj Auto auto-bound process.
+                    Working on the Bajaj Auto Outbound Process,
+                    handling customer interactions and
+                    providing professional customer support.
                 </p>
 
             </div>
 
+
+            <!-- EXPERIENCE 5 -->
 
             <div class="experience-card">
 
@@ -552,12 +931,12 @@ footer {
                 </div>
 
                 <p>
-                    Worked as a Worker, supporting day-to-day
-                    operations and carrying out assigned
-                    responsibilities.
+                    Previous professional experience at
+                    Kinetic Engineering Ltd as a Worker.
                 </p>
 
             </div>
+
 
         </div>
 
@@ -566,7 +945,9 @@ footer {
 </section>
 
 
-<!-- SKILLS -->
+<!-- =========================
+     SKILLS
+========================= -->
 
 <section id="skills">
 
@@ -577,42 +958,47 @@ footer {
         </h2>
 
         <p class="section-subtitle">
-            Professional skills and strengths
+            Key professional skills
         </p>
+
 
         <div class="skills">
 
-            <span class="skill">
+            <div class="skill">
                 Customer Support
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Inbound Calls
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Outbound Calls
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Email Support
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Communication
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Problem Solving
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Customer Handling
-            </span>
+            </div>
 
-            <span class="skill">
+            <div class="skill">
                 Escalation Handling
-            </span>
+            </div>
+
+            <div class="skill">
+                Process Handling
+            </div>
 
         </div>
 
@@ -621,7 +1007,62 @@ footer {
 </section>
 
 
-<!-- RESUME -->
+<!-- =========================
+     EDUCATION
+========================= -->
+
+<section id="education">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Education
+        </h2>
+
+        <p class="section-subtitle">
+            Academic background
+        </p>
+
+
+        <div class="education-box">
+
+
+            <div class="education-card">
+
+                <h3>
+                    Higher Secondary
+                </h3>
+
+                <p>
+                    12th Pass
+                </p>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <h3>
+                    Automobile Diploma
+                </h3>
+
+                <p>
+                    1-Year Diploma in Automobile
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     RESUME
+========================= -->
 
 <section id="resume">
 
@@ -635,16 +1076,21 @@ footer {
             My professional resume
         </p>
 
+
         <div class="resume-box">
 
+            <h3>
+                Resume
+            </h3>
+
             <p>
-                My resume will be available here.
-                A downloadable resume can be added later.
+                My resume will be available here soon.
+                A downloadable PDF can be added to this section later.
             </p>
 
-            <a href="#" class="btn primary">
-                View Resume
-            </a>
+            <div class="resume-coming">
+                Resume PDF — Coming Soon
+            </div>
 
         </div>
 
@@ -653,7 +1099,9 @@ footer {
 </section>
 
 
-<!-- CONTACT -->
+<!-- =========================
+     CONTACT
+========================= -->
 
 <section id="contact">
 
@@ -667,18 +1115,73 @@ footer {
             Let's connect
         </p>
 
+
         <div class="contact-box">
 
             <p>
-                If you would like to connect with me regarding
-                professional opportunities, feel free to get in touch.
+                Interested in discussing a professional opportunity?
+                Feel free to contact me directly.
             </p>
 
-            <!-- Your email can be added later -->
 
-            <a href="#" class="btn primary">
-                Contact Me
-            </a>
+            <div class="contact-info">
+
+
+                <!-- EMAIL -->
+
+                <div class="contact-card">
+
+                    <div class="label">
+                        Email
+                    </div>
+
+                    <a href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity">
+
+                        sushantmishra04@gmail.com
+
+                    </a>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="contact-card">
+
+                    <div class="label">
+                        Mobile
+                    </div>
+
+                    <a href="tel:+918999589446">
+
+                        +91 89995 89446
+
+                    </a>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="buttons">
+
+                <a
+                    href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity"
+                    class="btn primary"
+                >
+                    Email Me
+                </a>
+
+                <a
+                    href="tel:+918999589446"
+                    class="btn secondary"
+                >
+                    Call Me
+                </a>
+
+            </div>
+
 
         </div>
 
@@ -687,15 +1190,17 @@ footer {
 </section>
 
 
-<!-- FOOTER -->
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer>
 
-    <p>
-        © 2026 Sushant Mishra. All Rights Reserved.
-    </p>
+    © 2026 Sushant Mishra.
+    All Rights Reserved.
 
 </footer>
+
 
 </body>
 </html>
