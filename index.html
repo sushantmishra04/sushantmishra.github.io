@@ -1,1204 +1,1293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Sushant Mishra | Customer Support Executive</title>
-
-<meta name="description" content="Professional portfolio of Sushant Mishra, Customer Support Executive with experience in customer service, inbound and outbound processes, email support and customer handling.">
-
-<style>
-
-/* =========================
-   GLOBAL
-========================= */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #080d19;
-    color: #e5e7eb;
-    line-height: 1.6;
-}
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+    <meta charset="UTF-8">
 
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 22px;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-/* =========================
-   HEADER
-========================= */
+    <title>Sushant Mishra | Customer Support Executive</title>
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    <meta
+        name="description"
+        content="Professional portfolio of Sushant Mishra, Customer Support Executive with experience in customer service, inbound and outbound processes, email support and customer handling."
+    >
 
-    background: rgba(8, 13, 25, 0.94);
-    backdrop-filter: blur(12px);
+    <style>
 
-    border-bottom: 1px solid #263248;
-}
+        /* =========================
+           GLOBAL
+        ========================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080d19;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
 
-.navbar {
-    max-width: 1150px;
-    margin: auto;
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 22px;
+        }
 
-    padding: 18px 25px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* =========================
+           HEADER
+        ========================= */
 
-.logo {
-    font-size: 23px;
-    font-weight: bold;
-    color: #38bdf8;
-    letter-spacing: 0.5px;
-}
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
 
-nav {
-    display: flex;
-    gap: 25px;
-}
+            background: rgba(8, 13, 25, 0.94);
+            backdrop-filter: blur(12px);
 
-nav a {
-    color: #cbd5e1;
-    font-size: 14px;
-    transition: 0.3s;
-}
+            border-bottom: 1px solid #263248;
+        }
 
-nav a:hover {
-    color: #38bdf8;
-}
+        .navbar {
+            max-width: 1150px;
+            margin: auto;
 
-/* =========================
-   HERO
-========================= */
+            padding: 18px 25px;
 
-.hero {
-    min-height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        .logo {
+            font-size: 23px;
+            font-weight: bold;
+            color: #38bdf8;
+            letter-spacing: 0.5px;
+        }
 
-    text-align: center;
+        nav {
+            display: flex;
+            gap: 25px;
+        }
 
-    padding: 130px 20px 80px;
+        nav a {
+            color: #cbd5e1;
+            font-size: 14px;
+            transition: 0.3s;
+        }
 
-    background:
-        radial-gradient(circle at top right, #164e63, transparent 35%),
-        radial-gradient(circle at bottom left, #172554, transparent 40%),
-        #080d19;
-}
+        nav a:hover {
+            color: #38bdf8;
+        }
 
-.hero-content {
-    max-width: 850px;
-}
 
-.profile-placeholder {
-    width: 140px;
-    height: 140px;
+        /* =========================
+           HERO
+        ========================= */
 
-    margin: 0 auto 28px;
+        .hero {
+            min-height: 100vh;
 
-    border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-    border: 3px solid #38bdf8;
+            text-align: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+            padding: 130px 20px 80px;
 
-    font-size: 48px;
-    font-weight: bold;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    #164e63,
+                    transparent 35%
+                ),
+                radial-gradient(
+                    circle at bottom left,
+                    #172554,
+                    transparent 40%
+                ),
+                #080d19;
+        }
 
-    color: #38bdf8;
+        .hero-content {
+            max-width: 850px;
+        }
 
-    background: #111827;
 
-    box-shadow: 0 0 35px rgba(56, 189, 248, 0.15);
-}
+        /* =========================
+           PROFILE PHOTO
+        ========================= */
 
-/*
-   PHOTO PLACEHOLDER
+        .profile-photo {
+            width: 160px;
+            height: 160px;
 
-   Later, when you have your professional photo,
-   replace the profile-placeholder div with:
+            margin: 0 auto 28px;
 
-   <img src="photo.jpg" class="profile-photo" alt="Sushant Mishra">
+            object-fit: cover;
 
-*/
+            border-radius: 50%;
 
-.profile-photo {
-    width: 140px;
-    height: 140px;
+            border: 3px solid #38bdf8;
 
-    object-fit: cover;
+            display: block;
 
-    border-radius: 50%;
+            box-shadow:
+                0 0 35px rgba(56, 189, 248, 0.15);
+        }
 
-    border: 3px solid #38bdf8;
 
-    margin-bottom: 28px;
-}
+        .hero h1 {
+            font-size: 60px;
+            line-height: 1.1;
+            margin-bottom: 12px;
+        }
 
-.hero h1 {
-    font-size: 60px;
-    line-height: 1.1;
-    margin-bottom: 12px;
-}
+        .hero h1 span {
+            color: #38bdf8;
+        }
 
-.hero h1 span {
-    color: #38bdf8;
-}
+        .hero h2 {
+            font-size: 25px;
+            color: #cbd5e1;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
 
-.hero h2 {
-    font-size: 25px;
-    color: #cbd5e1;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
+        .hero p {
+            max-width: 720px;
+            margin: auto;
 
-.hero p {
-    max-width: 720px;
-    margin: auto;
+            color: #94a3b8;
 
-    color: #94a3b8;
+            font-size: 17px;
+        }
 
-    font-size: 17px;
-}
 
-.buttons {
-    margin-top: 32px;
-}
+        /* =========================
+           BUTTONS
+        ========================= */
 
-.btn {
-    display: inline-block;
+        .buttons {
+            margin-top: 32px;
+        }
 
-    padding: 13px 26px;
+        .btn {
+            display: inline-block;
 
-    margin: 6px;
+            padding: 13px 26px;
 
-    border-radius: 8px;
+            margin: 6px;
 
-    font-weight: bold;
+            border-radius: 8px;
 
-    transition: 0.3s;
-}
+            font-weight: bold;
 
-.primary {
-    background: #38bdf8;
-    color: #07111f;
-}
+            transition: 0.3s;
+        }
 
-.primary:hover {
-    transform: translateY(-3px);
-    background: #7dd3fc;
-}
+        .primary {
+            background: #38bdf8;
+            color: #07111f;
+        }
 
-.secondary {
-    border: 1px solid #38bdf8;
-    color: #38bdf8;
-}
+        .primary:hover {
+            transform: translateY(-3px);
+            background: #7dd3fc;
+        }
 
-.secondary:hover {
-    background: #38bdf8;
-    color: #07111f;
-}
+        .secondary {
+            border: 1px solid #38bdf8;
+            color: #38bdf8;
+        }
 
-/* =========================
-   SECTIONS
-========================= */
+        .secondary:hover {
+            background: #38bdf8;
+            color: #07111f;
+        }
 
-section {
-    padding: 95px 20px;
-}
 
-.section-title {
-    text-align: center;
+        /* =========================
+           SECTIONS
+        ========================= */
 
-    font-size: 38px;
+        section {
+            padding: 95px 20px;
+        }
 
-    margin-bottom: 12px;
-}
+        .section-title {
+            text-align: center;
 
-.section-subtitle {
-    text-align: center;
+            font-size: 38px;
 
-    color: #94a3b8;
+            margin-bottom: 12px;
+        }
 
-    margin-bottom: 50px;
-}
+        .section-subtitle {
+            text-align: center;
 
-/* =========================
-   ABOUT
-========================= */
+            color: #94a3b8;
 
-.about-box {
-    max-width: 900px;
+            margin-bottom: 50px;
+        }
 
-    margin: auto;
 
-    padding: 40px;
+        /* =========================
+           ABOUT
+        ========================= */
 
-    background: #111827;
+        .about-box {
+            max-width: 900px;
 
-    border: 1px solid #263248;
+            margin: auto;
 
-    border-radius: 18px;
+            padding: 40px;
 
-    text-align: center;
+            background: #111827;
 
-    transition: 0.3s;
-}
+            border: 1px solid #263248;
 
-.about-box:hover {
-    border-color: #38bdf8;
-    transform: translateY(-4px);
-}
+            border-radius: 18px;
 
-.about-box p {
-    color: #cbd5e1;
+            text-align: center;
 
-    font-size: 17px;
+            transition: 0.3s;
+        }
 
-    margin-bottom: 18px;
-}
+        .about-box:hover {
+            border-color: #38bdf8;
+            transform: translateY(-4px);
+        }
 
-.about-highlight {
-    color: #38bdf8;
-    font-weight: bold;
-}
+        .about-box p {
+            color: #cbd5e1;
 
-/* =========================
-   EXPERIENCE
-========================= */
+            font-size: 17px;
 
-.experience-grid {
-    display: grid;
+            margin-bottom: 18px;
+        }
 
-    grid-template-columns: repeat(2, 1fr);
+        .about-highlight {
+            color: #38bdf8;
+            font-weight: bold;
+        }
 
-    gap: 24px;
-}
 
-.experience-card {
-    background: #111827;
+        /* =========================
+           EXPERIENCE
+        ========================= */
 
-    border: 1px solid #263248;
+        .experience-grid {
+            display: grid;
 
-    border-radius: 16px;
+            grid-template-columns: repeat(2, 1fr);
 
-    padding: 30px;
+            gap: 24px;
+        }
 
-    transition: 0.3s;
+        .experience-card {
+            background: #111827;
 
-    position: relative;
+            border: 1px solid #263248;
 
-    overflow: hidden;
-}
+            border-radius: 16px;
 
-.experience-card::before {
-    content: "";
+            padding: 30px;
 
-    position: absolute;
+            transition: 0.3s;
 
-    left: 0;
-    top: 0;
+            position: relative;
 
-    width: 4px;
-    height: 100%;
+            overflow: hidden;
+        }
 
-    background: #38bdf8;
-}
+        .experience-card::before {
+            content: "";
 
-.experience-card:hover {
-    transform: translateY(-7px);
+            position: absolute;
 
-    border-color: #38bdf8;
+            left: 0;
+            top: 0;
 
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
-}
+            width: 4px;
+            height: 100%;
 
-.experience-card h3 {
-    color: #38bdf8;
+            background: #38bdf8;
+        }
 
-    font-size: 20px;
+        .experience-card:hover {
+            transform: translateY(-7px);
 
-    margin-bottom: 7px;
-}
+            border-color: #38bdf8;
 
-.company {
-    color: white;
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, 0.25);
+        }
 
-    font-weight: bold;
+        .experience-card h3 {
+            color: #38bdf8;
 
-    font-size: 16px;
+            font-size: 20px;
 
-    margin-bottom: 5px;
-}
+            margin-bottom: 7px;
+        }
 
-.duration {
-    color: #7dd3fc;
+        .company {
+            color: white;
 
-    font-size: 14px;
+            font-weight: bold;
 
-    margin-bottom: 17px;
-}
+            font-size: 16px;
 
-.experience-card p {
-    color: #94a3b8;
+            margin-bottom: 5px;
+        }
 
-    font-size: 15px;
-}
+        .duration {
+            color: #7dd3fc;
 
-/* =========================
-   SKILLS
-========================= */
+            font-size: 14px;
 
-.skills {
-    display: flex;
+            margin-bottom: 17px;
+        }
 
-    flex-wrap: wrap;
+        .experience-card p {
+            color: #94a3b8;
 
-    justify-content: center;
+            font-size: 15px;
+        }
 
-    gap: 14px;
 
-    max-width: 900px;
+        /* =========================
+           SKILLS
+        ========================= */
 
-    margin: auto;
-}
+        .skills {
+            display: flex;
 
-.skill {
-    padding: 12px 20px;
+            flex-wrap: wrap;
 
-    background: #111827;
+            justify-content: center;
 
-    border: 1px solid #263248;
+            gap: 14px;
 
-    border-radius: 30px;
+            max-width: 900px;
 
-    color: #cbd5e1;
+            margin: auto;
+        }
 
-    transition: 0.3s;
-}
+        .skill {
+            padding: 12px 20px;
 
-.skill:hover {
-    border-color: #38bdf8;
+            background: #111827;
 
-    color: #38bdf8;
+            border: 1px solid #263248;
 
-    transform: translateY(-3px);
-}
+            border-radius: 30px;
 
-/* =========================
-   EDUCATION
-========================= */
+            color: #cbd5e1;
 
-.education-box {
-    max-width: 850px;
+            transition: 0.3s;
+        }
 
-    margin: auto;
+        .skill:hover {
+            border-color: #38bdf8;
 
-    display: grid;
+            color: #38bdf8;
 
-    grid-template-columns: repeat(2, 1fr);
+            transform: translateY(-3px);
+        }
 
-    gap: 22px;
-}
 
-.education-card {
-    background: #111827;
+        /* =========================
+           EDUCATION
+        ========================= */
 
-    border: 1px solid #263248;
+        .education-box {
+            max-width: 850px;
 
-    border-radius: 15px;
+            margin: auto;
 
-    padding: 30px;
+            display: grid;
 
-    text-align: center;
+            grid-template-columns: repeat(2, 1fr);
 
-    transition: 0.3s;
-}
+            gap: 22px;
+        }
 
-.education-card:hover {
-    transform: translateY(-5px);
+        .education-card {
+            background: #111827;
 
-    border-color: #38bdf8;
-}
+            border: 1px solid #263248;
 
-.education-card h3 {
-    color: #38bdf8;
+            border-radius: 15px;
 
-    margin-bottom: 10px;
-}
+            padding: 30px;
 
-.education-card p {
-    color: #94a3b8;
-}
+            text-align: center;
 
-/* =========================
-   RESUME
-========================= */
+            transition: 0.3s;
+        }
 
-.resume-box {
-    max-width: 750px;
+        .education-card:hover {
+            transform: translateY(-5px);
 
-    margin: auto;
+            border-color: #38bdf8;
+        }
 
-    text-align: center;
+        .education-card h3 {
+            color: #38bdf8;
 
-    background:
-        linear-gradient(135deg, #111827, #172554);
+            margin-bottom: 10px;
+        }
 
-    padding: 50px 30px;
+        .education-card p {
+            color: #94a3b8;
+        }
 
-    border-radius: 18px;
 
-    border: 1px solid #263248;
-}
+        /* =========================
+           RESUME
+        ========================= */
 
-.resume-box h3 {
-    font-size: 25px;
+        .resume-box {
+            max-width: 750px;
 
-    margin-bottom: 12px;
-}
+            margin: auto;
 
-.resume-box p {
-    color: #94a3b8;
+            text-align: center;
 
-    margin-bottom: 25px;
-}
+            background:
+                linear-gradient(
+                    135deg,
+                    #111827,
+                    #172554
+                );
 
-.resume-coming {
-    display: inline-block;
+            padding: 50px 30px;
 
-    padding: 12px 22px;
+            border-radius: 18px;
 
-    border: 1px solid #475569;
+            border: 1px solid #263248;
+        }
 
-    border-radius: 8px;
+        .resume-box h3 {
+            font-size: 25px;
 
-    color: #94a3b8;
+            margin-bottom: 12px;
+        }
 
-    font-size: 14px;
-}
+        .resume-box p {
+            color: #94a3b8;
 
-/* =========================
-   CONTACT
-========================= */
+            margin-bottom: 25px;
+        }
 
-.contact-box {
-    max-width: 850px;
+        .resume-coming {
+            display: inline-block;
 
-    margin: auto;
+            padding: 12px 22px;
 
-    text-align: center;
-}
+            border: 1px solid #475569;
 
-.contact-box > p {
-    color: #94a3b8;
+            border-radius: 8px;
 
-    font-size: 17px;
+            color: #94a3b8;
 
-    margin-bottom: 35px;
-}
+            font-size: 14px;
+        }
 
-.contact-info {
-    display: grid;
 
-    grid-template-columns: repeat(2, 1fr);
+        /* =========================
+           CONTACT
+        ========================= */
 
-    gap: 22px;
+        .contact-box {
+            max-width: 850px;
 
-    margin-bottom: 30px;
-}
+            margin: auto;
 
-.contact-card {
-    background: #111827;
+            text-align: center;
+        }
 
-    border: 1px solid #263248;
+        .contact-box > p {
+            color: #94a3b8;
 
-    border-radius: 15px;
+            font-size: 17px;
 
-    padding: 25px;
+            margin-bottom: 35px;
+        }
 
-    transition: 0.3s;
-}
+        .contact-info {
+            display: grid;
 
-.contact-card:hover {
-    transform: translateY(-5px);
+            grid-template-columns: repeat(2, 1fr);
 
-    border-color: #38bdf8;
-}
+            gap: 22px;
 
-.contact-card .label {
-    color: #64748b;
+            margin-bottom: 30px;
+        }
 
-    font-size: 13px;
+        .contact-card {
+            background: #111827;
 
-    text-transform: uppercase;
+            border: 1px solid #263248;
 
-    letter-spacing: 1px;
+            border-radius: 15px;
 
-    margin-bottom: 8px;
-}
+            padding: 25px;
 
-.contact-card a {
-    color: #38bdf8;
+            transition: 0.3s;
+        }
 
-    font-size: 16px;
+        .contact-card:hover {
+            transform: translateY(-5px);
 
-    word-break: break-word;
-}
+            border-color: #38bdf8;
+        }
 
-/* =========================
-   FOOTER
-========================= */
+        .contact-card .label {
+            color: #64748b;
 
-footer {
-    text-align: center;
+            font-size: 13px;
 
-    padding: 35px 20px;
+            text-transform: uppercase;
 
-    border-top: 1px solid #263248;
+            letter-spacing: 1px;
 
-    color: #64748b;
+            margin-bottom: 8px;
+        }
 
-    font-size: 14px;
-}
+        .contact-card a {
+            color: #38bdf8;
 
-/* =========================
-   ANIMATION
-========================= */
+            font-size: 16px;
 
-@keyframes fadeUp {
+            word-break: break-word;
+        }
 
-    from {
-        opacity: 0;
-        transform: translateY(25px);
-    }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+        /* =========================
+           FOOTER
+        ========================= */
 
-}
+        footer {
+            text-align: center;
 
-.hero-content {
-    animation: fadeUp 1s ease;
-}
+            padding: 35px 20px;
 
-/* =========================
-   MOBILE
-========================= */
+            border-top: 1px solid #263248;
 
-@media (max-width: 750px) {
+            color: #64748b;
 
-    nav {
-        display: none;
-    }
+            font-size: 14px;
+        }
 
-    .navbar {
-        justify-content: center;
-    }
 
-    .hero {
-        padding-top: 120px;
-    }
+        /* =========================
+           ANIMATION
+        ========================= */
 
-    .hero h1 {
-        font-size: 42px;
-    }
+        @keyframes fadeUp {
 
-    .hero h2 {
-        font-size: 20px;
-    }
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
 
-    .hero p {
-        font-size: 15px;
-    }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
 
-    .section-title {
-        font-size: 30px;
-    }
+        }
 
-    .experience-grid {
-        grid-template-columns: 1fr;
-    }
+        .hero-content {
+            animation: fadeUp 1s ease;
+        }
 
-    .education-box {
-        grid-template-columns: 1fr;
-    }
 
-    .contact-info {
-        grid-template-columns: 1fr;
-    }
+        /* =========================
+           MOBILE
+        ========================= */
 
-    .about-box {
-        padding: 28px 22px;
-    }
+        @media (max-width: 750px) {
 
-    section {
-        padding: 75px 18px;
-    }
+            nav {
+                display: none;
+            }
 
-}
+            .navbar {
+                justify-content: center;
+            }
 
-</style>
+            .hero {
+                padding-top: 120px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .section-title {
+                font-size: 30px;
+            }
+
+            .experience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .education-box {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+
+            .about-box {
+                padding: 28px 22px;
+            }
+
+            section {
+                padding: 75px 18px;
+            }
+
+            .profile-photo {
+                width: 140px;
+                height: 140px;
+            }
+
+        }
+
+    </style>
+
 </head>
 
 
 <body>
 
 
-<!-- =========================
-     NAVIGATION
-========================= -->
+    <!-- =========================
+         NAVIGATION
+    ========================= -->
 
-<header>
+    <header>
 
-    <div class="navbar">
+        <div class="navbar">
 
-        <div class="logo">
-            SM
-        </div>
+            <div class="logo">
+                SM
+            </div>
 
-        <nav>
+            <nav>
 
-            <a href="#home">Home</a>
+                <a href="#home">Home</a>
 
-            <a href="#about">About</a>
+                <a href="#about">About</a>
 
-            <a href="#experience">Experience</a>
+                <a href="#experience">Experience</a>
 
-            <a href="#skills">Skills</a>
+                <a href="#skills">Skills</a>
 
-            <a href="#education">Education</a>
+                <a href="#education">Education</a>
 
-            <a href="#contact">Contact</a>
+                <a href="#resume">Resume</a>
 
-        </nav>
+                <a href="#contact">Contact</a>
 
-    </div>
-
-</header>
-
-
-<!-- =========================
-     HOME
-========================= -->
-
-<section id="home" class="hero">
-
-    <div class="hero-content">
-
-<!-- PROFILE PHOTO -->
-
-<img src="profile.png" class="profile-photo" alt="Sushant Mishra">
-
-        <h1>
-            Sushant <span>Mishra</span>
-        </h1>
-
-        <h2>
-            Customer Support Executive
-        </h2>
-
-        <p>
-            Customer-focused professional with experience in
-            customer support, inbound and outbound processes,
-            email support, customer handling and problem solving.
-        </p>
-
-        <div class="buttons">
-
-            <a href="#experience" class="btn primary">
-                View Experience
-            </a>
-
-            <a href="#contact" class="btn secondary">
-                Contact Me
-            </a>
+            </nav>
 
         </div>
 
-    </div>
-
-</section>
+    </header>
 
 
-<!-- =========================
-     ABOUT
-========================= -->
 
-<section id="about">
+    <!-- =========================
+         HOME
+    ========================= -->
 
-    <div class="container">
+    <section id="home" class="hero">
 
-        <h2 class="section-title">
-            About Me
-        </h2>
+        <div class="hero-content">
 
-        <p class="section-subtitle">
-            Professional profile
-        </p>
 
-        <div class="about-box">
+            <!-- =========================
+                 PROFILE PHOTO
+            ========================= -->
+
+            <img
+                src="profile.png"
+                class="profile-photo"
+                alt="Sushant Mishra"
+            >
+
+
+            <h1>
+                Sushant <span>Mishra</span>
+            </h1>
+
+
+            <h2>
+                Customer Support Executive
+            </h2>
+
 
             <p>
-                I am <span class="about-highlight">Sushant Mishra</span>,
-                a Customer Support Executive with professional experience
-                across customer service and support processes.
+                Customer-focused professional with experience in
+                customer support, inbound and outbound processes,
+                email support, customer handling and problem solving.
             </p>
-
-            <p>
-                My experience includes handling customers through
-                inbound calls, outbound processes and email support,
-                while focusing on effective communication, problem
-                solving and customer satisfaction.
-            </p>
-
-            <p>
-                I am interested in opportunities where I can use my
-                customer service experience, communication skills and
-                ability to handle customers professionally.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     EXPERIENCE
-========================= -->
-
-<section id="experience">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Work Experience
-        </h2>
-
-        <p class="section-subtitle">
-            Professional experience and responsibilities
-        </p>
-
-
-        <div class="experience-grid">
-
-
-            <!-- EXPERIENCE 1 -->
-
-            <div class="experience-card">
-
-                <h3>
-                    Customer Support Executive
-                </h3>
-
-                <div class="company">
-                    iEnergizer
-                </div>
-
-                <div class="duration">
-                    16 Months
-                </div>
-
-                <p>
-                    Worked on the PVR Cinemas process,
-                    handling customer queries and providing
-                    effective customer support.
-                </p>
-
-            </div>
-
-
-            <!-- EXPERIENCE 2 -->
-
-            <div class="experience-card">
-
-                <h3>
-                    L2 Executive
-                </h3>
-
-                <div class="company">
-                    iEnergizer
-                </div>
-
-                <div class="duration">
-                    8 Months
-                </div>
-
-                <p>
-                    Worked on the Flipkart Outbound Process,
-                    handling customer interactions and
-                    supporting process requirements.
-                </p>
-
-            </div>
-
-
-            <!-- EXPERIENCE 3 -->
-
-            <div class="experience-card">
-
-                <h3>
-                    Customer Support Executive
-                </h3>
-
-                <div class="company">
-                    Concentrix
-                </div>
-
-                <div class="duration">
-                    9 Months
-                </div>
-
-                <p>
-                    Worked on the redBus process,
-                    assisting customers and resolving
-                    service-related queries.
-                </p>
-
-            </div>
-
-
-            <!-- EXPERIENCE 4 -->
-
-            <div class="experience-card">
-
-                <h3>
-                    Customer Support Executive
-                </h3>
-
-                <div class="company">
-                    Concentrix
-                </div>
-
-                <div class="duration">
-                    Current
-                </div>
-
-                <p>
-                    Working on the Bajaj Auto Outbound Process,
-                    handling customer interactions and
-                    providing professional customer support.
-                </p>
-
-            </div>
-
-
-            <!-- EXPERIENCE 5 -->
-
-            <div class="experience-card">
-
-                <h3>
-                    Worker
-                </h3>
-
-                <div class="company">
-                    Kinetic Engineering Ltd
-                </div>
-
-                <div class="duration">
-                    Previous Experience
-                </div>
-
-                <p>
-                    Previous professional experience at
-                    Kinetic Engineering Ltd as a Worker.
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     SKILLS
-========================= -->
-
-<section id="skills">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Skills
-        </h2>
-
-        <p class="section-subtitle">
-            Key professional skills
-        </p>
-
-
-        <div class="skills">
-
-            <div class="skill">
-                Customer Support
-            </div>
-
-            <div class="skill">
-                Inbound Calls
-            </div>
-
-            <div class="skill">
-                Outbound Calls
-            </div>
-
-            <div class="skill">
-                Email Support
-            </div>
-
-            <div class="skill">
-                Communication
-            </div>
-
-            <div class="skill">
-                Problem Solving
-            </div>
-
-            <div class="skill">
-                Customer Handling
-            </div>
-
-            <div class="skill">
-                Escalation Handling
-            </div>
-
-            <div class="skill">
-                Process Handling
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     EDUCATION
-========================= -->
-
-<section id="education">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Education
-        </h2>
-
-        <p class="section-subtitle">
-            Academic background
-        </p>
-
-
-        <div class="education-box">
-
-
-            <div class="education-card">
-
-                <h3>
-                    Higher Secondary
-                </h3>
-
-                <p>
-                    12th Pass
-                </p>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <h3>
-                    Automobile Diploma
-                </h3>
-
-                <p>
-                    1-Year Diploma in Automobile
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     RESUME
-========================= -->
-
-<section id="resume">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Resume
-        </h2>
-
-        <p class="section-subtitle">
-            My professional resume
-        </p>
-
-
-        <div class="resume-box">
-
-            <h3>
-                Resume
-            </h3>
-
-            <p>
-                My resume will be available here soon.
-                A downloadable PDF can be added to this section later.
-            </p>
-
-            <div class="resume-coming">
-                Resume PDF — Coming Soon
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     CONTACT
-========================= -->
-
-<section id="contact">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Contact Me
-        </h2>
-
-        <p class="section-subtitle">
-            Let's connect
-        </p>
-
-
-        <div class="contact-box">
-
-            <p>
-                Interested in discussing a professional opportunity?
-                Feel free to contact me directly.
-            </p>
-
-
-            <div class="contact-info">
-
-
-                <!-- EMAIL -->
-
-                <div class="contact-card">
-
-                    <div class="label">
-                        Email
-                    </div>
-
-                    <a href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity">
-
-                        sushantmishra04@gmail.com
-
-                    </a>
-
-                </div>
-
-
-                <!-- PHONE -->
-
-                <div class="contact-card">
-
-                    <div class="label">
-                        Mobile
-                    </div>
-
-                    <a href="tel:+918999589446">
-
-                        +91 89995 89446
-
-                    </a>
-
-                </div>
-
-
-            </div>
 
 
             <div class="buttons">
 
                 <a
-                    href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity"
+                    href="#experience"
                     class="btn primary"
                 >
-                    Email Me
+                    View Experience
                 </a>
 
+
                 <a
-                    href="tel:+918999589446"
+                    href="#contact"
                     class="btn secondary"
                 >
-                    Call Me
+                    Contact Me
                 </a>
 
             </div>
 
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         ABOUT
+    ========================= -->
+
+    <section id="about">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                About Me
+            </h2>
+
+
+            <p class="section-subtitle">
+                Professional profile
+            </p>
+
+
+            <div class="about-box">
+
+
+                <p>
+                    I am
+                    <span class="about-highlight">
+                        Sushant Mishra
+                    </span>,
+                    a Customer Support Executive with professional
+                    experience across customer service and support processes.
+                </p>
+
+
+                <p>
+                    My experience includes handling customers through
+                    inbound calls, outbound processes and email support,
+                    while focusing on effective communication, problem
+                    solving and customer satisfaction.
+                </p>
+
+
+                <p>
+                    I am interested in opportunities where I can use my
+                    customer service experience, communication skills and
+                    ability to handle customers professionally.
+                </p>
+
+
+            </div>
 
         </div>
 
-    </div>
-
-</section>
+    </section>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
 
-<footer>
+    <!-- =========================
+         EXPERIENCE
+    ========================= -->
 
-    © 2026 Sushant Mishra.
-    All Rights Reserved.
+    <section id="experience">
 
-</footer>
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Work Experience
+            </h2>
+
+
+            <p class="section-subtitle">
+                Professional experience and responsibilities
+            </p>
+
+
+            <div class="experience-grid">
+
+
+                <!-- EXPERIENCE 1 -->
+
+                <div class="experience-card">
+
+                    <h3>
+                        Customer Support Executive
+                    </h3>
+
+                    <div class="company">
+                        iEnergizer
+                    </div>
+
+                    <div class="duration">
+                        16 Months
+                    </div>
+
+                    <p>
+                        Worked on the PVR Cinemas process,
+                        handling customer queries and providing
+                        effective customer support.
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPERIENCE 2 -->
+
+                <div class="experience-card">
+
+                    <h3>
+                        L2 Executive
+                    </h3>
+
+                    <div class="company">
+                        iEnergizer
+                    </div>
+
+                    <div class="duration">
+                        8 Months
+                    </div>
+
+                    <p>
+                        Worked on the Flipkart Outbound Process,
+                        handling customer interactions and
+                        supporting process requirements.
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPERIENCE 3 -->
+
+                <div class="experience-card">
+
+                    <h3>
+                        Customer Support Executive
+                    </h3>
+
+                    <div class="company">
+                        Concentrix
+                    </div>
+
+                    <div class="duration">
+                        9 Months
+                    </div>
+
+                    <p>
+                        Worked on the redBus process,
+                        assisting customers and resolving
+                        service-related queries.
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPERIENCE 4 -->
+
+                <div class="experience-card">
+
+                    <h3>
+                        Customer Support Executive
+                    </h3>
+
+                    <div class="company">
+                        Concentrix
+                    </div>
+
+                    <div class="duration">
+                        Current
+                    </div>
+
+                    <p>
+                        Working on the Bajaj Auto Outbound Process,
+                        handling customer interactions and
+                        providing professional customer support.
+                    </p>
+
+                </div>
+
+
+
+                <!-- EXPERIENCE 5 -->
+
+                <div class="experience-card">
+
+                    <h3>
+                        Worker
+                    </h3>
+
+                    <div class="company">
+                        Kinetic Engineering Ltd
+                    </div>
+
+                    <div class="duration">
+                        Previous Experience
+                    </div>
+
+                    <p>
+                        Previous professional experience at
+                        Kinetic Engineering Ltd as a Worker.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SKILLS
+    ========================= -->
+
+    <section id="skills">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Skills
+            </h2>
+
+
+            <p class="section-subtitle">
+                Key professional skills
+            </p>
+
+
+            <div class="skills">
+
+
+                <div class="skill">
+                    Customer Support
+                </div>
+
+
+                <div class="skill">
+                    Inbound Calls
+                </div>
+
+
+                <div class="skill">
+                    Outbound Calls
+                </div>
+
+
+                <div class="skill">
+                    Email Support
+                </div>
+
+
+                <div class="skill">
+                    Communication
+                </div>
+
+
+                <div class="skill">
+                    Problem Solving
+                </div>
+
+
+                <div class="skill">
+                    Customer Handling
+                </div>
+
+
+                <div class="skill">
+                    Escalation Handling
+                </div>
+
+
+                <div class="skill">
+                    Process Handling
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         EDUCATION
+    ========================= -->
+
+    <section id="education">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Education
+            </h2>
+
+
+            <p class="section-subtitle">
+                Academic background
+            </p>
+
+
+            <div class="education-box">
+
+
+                <div class="education-card">
+
+                    <h3>
+                        Higher Secondary
+                    </h3>
+
+                    <p>
+                        12th Pass
+                    </p>
+
+                </div>
+
+
+
+                <div class="education-card">
+
+                    <h3>
+                        Automobile Diploma
+                    </h3>
+
+                    <p>
+                        1-Year Diploma in Automobile
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         RESUME
+    ========================= -->
+
+    <section id="resume">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Resume
+            </h2>
+
+
+            <p class="section-subtitle">
+                My professional resume
+            </p>
+
+
+            <div class="resume-box">
+
+                <h3>
+                    Resume
+                </h3>
+
+
+                <p>
+                    My resume will be available here soon.
+                    A downloadable PDF can be added to this section later.
+                </p>
+
+
+                <div class="resume-coming">
+                    Resume PDF — Coming Soon
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================= -->
+
+    <section id="contact">
+
+        <div class="container">
+
+
+            <h2 class="section-title">
+                Contact Me
+            </h2>
+
+
+            <p class="section-subtitle">
+                Let's connect
+            </p>
+
+
+            <div class="contact-box">
+
+
+                <p>
+                    Interested in discussing a professional opportunity?
+                    Feel free to contact me directly.
+                </p>
+
+
+                <div class="contact-info">
+
+
+                    <!-- EMAIL -->
+
+                    <div class="contact-card">
+
+                        <div class="label">
+                            Email
+                        </div>
+
+                        <a
+                            href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity"
+                        >
+                            sushantmishra04@gmail.com
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- PHONE -->
+
+                    <div class="contact-card">
+
+                        <div class="label">
+                            Mobile
+                        </div>
+
+                        <a href="tel:+918999589446">
+                            +91 89995 89446
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="buttons">
+
+
+                    <a
+                        href="mailto:sushantmishra04@gmail.com?subject=Professional%20Opportunity"
+                        class="btn primary"
+                    >
+                        Email Me
+                    </a>
+
+
+                    <a
+                        href="tel:+918999589446"
+                        class="btn secondary"
+                    >
+                        Call Me
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        © 2026 Sushant Mishra.
+        All Rights Reserved.
+
+    </footer>
 
 
 </body>
+
 </html>
